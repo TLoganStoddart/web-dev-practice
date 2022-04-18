@@ -8,14 +8,30 @@
     <title>Forms Demo</title>
 </head>
 
+<!-- Playing with different form items -->
 <body>
     <h1>Forms</h1>
     <form action="/search/">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
-        <input type="color" placeholder="Color?">
-        <input type="month">
-        <input type="number" placeholder="enter a number">
+        <p>
+            <label for="username">Enter Username</label>
+            <input type="text" placeholder="username" id="username">
+        </p>
+        <p>
+            <label for="password">Enter Password</label>
+            <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+            <label for="color">Select Color</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="month">Select month</label>
+            <input type="month" id="month">
+        </p>
+        <p>
+            <label for="number">Number</label>
+            <input type="number" placeholder="enter a number">
+        </p>
     </form>
 </body>
 
